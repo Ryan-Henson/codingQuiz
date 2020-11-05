@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coding Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Code Quiz</title>
   </head>
   <body>
+    <a href="highscore.html">View Highscores</a>
     <div id="wrapper">
-      <div id="currentTime">this will be a timer</div>
+      <div id="currentTime"></div>
       <div id="questionsDiv">
         <h1>Coding Quiz Challenge</h1>
-        <p>this will be a discription and rules of the quiz</p>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
         <ul id="choicesUl"></ul>
         <button id="startTime">Start Quiz</button>
       </div>
-      <div>
-        <a href="highscore.html">this will be highscores</a>
-      </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
